@@ -1,0 +1,24 @@
+# Currency Dataset
+backend/indian-currency/
+
+# YOLO Models
+backend/*.pt
+
+# Face Model
+backend/face_model.yml
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Flutter
+build/
+.dart_tool/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log

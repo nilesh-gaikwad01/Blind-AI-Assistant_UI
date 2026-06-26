@@ -1,0 +1,38 @@
+name: blind_ai_app
+description: Blind Assist AI - Smart assistant for visually impaired users
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera
+  camera: ^0.10.5+9
+
+  # Text to Speech
+  flutter_tts: ^3.8.5
+ 
+  # HTTP requests
+  http: ^1.1.0
+
+  # Permission handler
+  permission_handler: ^11.1.0
+
+  geolocator: ^10.1.0
+
+ #Open dialer
+  url_launcher: ^6.1.14
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
