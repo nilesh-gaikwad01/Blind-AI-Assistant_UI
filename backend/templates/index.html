@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Blind Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🦯 Smart Blind Assistant</h1>
+
+    <div class="video-box">
+        <video id="video" autoplay playsinline muted style="display:none;"></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <img id="preview" src="" alt="Camera Feed" />
+    </div>
+
+    <div class="modules">
+        <p id="status">Select a mode to begin</p>
+        <ul>
+            <li><button onclick="setMode('navigation')">🚶 Navigation</button></li>
+            <li><button onclick="setMode('currency')">💵 Currency Detection</button></li>
+            <li><button onclick="setMode('read')">📖 Read Text</button></li>
+            <li><button onclick="sendWhatsApp()">📲 Send SOS WhatsApp</button></li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
